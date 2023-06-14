@@ -47,10 +47,23 @@ const Meme = () => {
           Get a new meme
         </button>
       </form>
-      <div className="meme">
-        <img className="memeImg" src={meme.url} alt="meme" />
-        <h2 className="text-type top">topText</h2>
-        <h2 className="text-type bottom"> Bottom text</h2>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
+        <div
+          className="meme"
+          style={{
+            width: "50rem",
+          }}
+        >
+          <img className="memeImg" src={meme.url} alt="meme" />
+          <h2 className="text-type top">{meme.topText}</h2>
+          <h2 className="text-type bottom">{meme.bottomText}</h2>
+        </div>
       </div>
     </div>
   );
