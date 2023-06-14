@@ -2,6 +2,8 @@
 
 A fun and interactive web application that allows users to create and generate custom memes. Users can select from a collection of popular meme templates, add their own captions, and instantly generate a personalized meme to share with friends and on social media.
 
+[Home page](https://github-production-user-asset-6210df.s3.amazonaws.com/108184610/245823563-575d974b-5d66-4284-890e-04b5c6884dff.png)
+
 ## Features
 
 - Choose from a wide range of popular meme templates
@@ -13,7 +15,7 @@ A fun and interactive web application that allows users to create and generate c
 
 ## Demo
 
-You can find a live demo of the Meme Generator application [here](https://your-meme-generator-demo-url).
+You can find a live demo of the Meme Generator application [here](https://meme-generator-somnath.vercel.app).
 
 ## Installation
 
